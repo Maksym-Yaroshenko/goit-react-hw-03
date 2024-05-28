@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 // import "./App.css";
 import css from "./App.module.css";
 
-import ContactList from "./ContactList/ContactList";
-import SearchBox from "./SearchBox/SearchBox";
-import ContactForm from "./ContactForm/ContactForm";
+import ContactList from "./components/ContactList/ContactList";
+import SearchBox from "./components/SearchBox/SearchBox";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 const userList = [
   { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
